@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/WebYekan.eot');
+    src: url('../fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebYekan.woff') format('woff'),
+         url('../fonts/WebYekan.ttf') format('truetype'),
+         url('../fonts/WebYekan.svg#WebYekan') format('svg');
+}
+
+html {
+	font-family: "Yekan", tahoma;
+	direction: rtl;
+}
+
+body {
+	text-align: right;
+	font-family: "Yekan",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+ul {
+	padding-inline-start: 10px;
+}
+li {
+	text-align: right;
+}
+.dropdown-toggle::after {
+    margin-right: .255em;
+}
+
+
+
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
